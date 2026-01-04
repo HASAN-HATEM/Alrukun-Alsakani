@@ -12,6 +12,8 @@ import {
   Award,
   CheckCircle2,
   Clock,
+  CalendarDays,
+  UserCog,
   Droplets,
   Gauge,
   Lightbulb,
@@ -136,7 +138,8 @@ export default function Home() {
                 <span className="text-secondary block">الصيانة والتشغيل</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                مؤسسة الركن السكني تقدم الخدمات السريعة والموثوقة مع الجودة العالية التي تضمن استمرارية تشغيل المبنى بأفضل شكل ممكن. نوفر لك الخدمات المتكاملة والاحترافية لضمان أعلى مستوى من الجودة والاحترافية مع سرعة الإنجاز والالتزام بالمواعيد المحددة.
+مؤسسة الركن السكني للخدمات السريعة والموثوقة مع الجودة العالية التي تضمن استمرارية تشغيل المبنى بأفضل شكل ممكن، وبما يحقق راحة وسلامة الملاك أو المستأجرين للمبنى
+نوفر لكم الخدمات المتكاملة والإحترافية لجميع أنواع المباني السكنية نحن متخصصون في تقديم خدمات الصيانة للكهرباء والسباكة والتكييف والصيانة العامة لجميع المباني السكنية.
               </p>
 
               {/* Vision & Mission Cards */}
@@ -148,8 +151,9 @@ export default function Home() {
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-2">رؤيتنا</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      أن نكون الخيار الموثوق والأول في المملكة في تشغيل وصيانة المرافق بالاعتماد على سرعة الإنجاز والمرونة والشفافية والتطوير المستمر.
-                    </p>
+أن نكون الخيار الموثوق واألول في المملكة في تشغيل وصيانة المرافق باإلعتماد
+على سرعة اإلنجاز والمرونة والشفافية والتطوير المستمر في تقديم أفضل
+الخدمات لضمان رضى العمالء.                    </p>
                   </CardContent>
                 </Card>
 
@@ -177,7 +181,17 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
-                  <span className="text-sm font-medium">ضمان الجودة</span>
+                  <span className="text-sm font-medium"> ضمان الجودة
+جميع خدماتنا مصحوبة بعقود واضحة وضمان كامل وذلك لضمان إستمرارية
+األداء المثالي للمباني وحماية أستثمارك على المدى الطويل.</span>
+                </div>
+
+              <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
+                  <span className="text-sm font-medium"> خدمة سريعة وموثوقة
+نوفر في الركن السكني بالرياض خدمة صيانة طارئة للمباني التي تم التعاقد معها
+على مدار الساعة لضمان تلبية جميع اإلحتياجات في أي وقت مهما كانت طبيعة
+المشكلة أو حجمها.</span>
                 </div>
               </div>
             </div>
@@ -208,7 +222,7 @@ export default function Home() {
               <span className="text-secondary block">احتياجات المباني</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              نقدم في الركن السكني صيانة شاملة بالرياض ووضع حلول الصيانة المتكاملة التي تشمل جميع جوانب المبنى
+              نقدم في الركن السكني صيانة شاملة في مدينة الرياض ووضع حلول الصيانة المتكاملة التي تشمل جميع جوانب المبنى
             </p>
           </div>
 
@@ -222,7 +236,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">صيانة الكهرباء والإنارة</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  صيانة الخوربيات والمولدات لاستمرار الطاقة الكهربائية دون انقطاع، مع فحص دوري للأنظمة الكهربائية وإصلاح الأعطال.
+صيانة الكهرباء لضمان عمل المبنى بدقة عالية وأمان كامل للمستخدمين.
                 </p>
               </CardContent>
             </Card>
@@ -235,8 +249,8 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">صيانة التكييف والتبريد</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  صيانة أجهزة التكييف والتبريد لراحة المستخدمين وتحقيق درجة الحرارة والرطوبة المثالية بالمواعيد المحددة.
-                </p>
+صيانة أجهزة التكييف والتبريد لراحة المستخدمين وتحقيق درجة الحرارة
+والبرودة المثالية.                </p>
               </CardContent>
             </Card>
 
@@ -248,7 +262,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">صيانة السباكة</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  صيانة السباكة والتمديدات الصحية للحفاظ على بيئة صحية وآمنة، مع فحص وصيانة الخزانات والمضخات.
+صيانة السباكة والتمديدات الصحية للحفاظ على بيئة صحية وآمنة.
                 </p>
               </CardContent>
             </Card>
@@ -261,8 +275,8 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">صيانة المصاعد</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  صيانة المصاعد وأنظمة الحريق لضمان سلامة المبنى والالتزام بالمعايير السعودية مع فحص شهري منتظم.
-                </p>
+صيانة المصاعد وأنظمة الحريق لضمان سالمة المبنى واإللتزام بالمعايير
+السعودية.                </p>
               </CardContent>
             </Card>
 
@@ -272,10 +286,9 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Wrench className="w-8 h-8 text-secondary" />
                 </div>
-                <h3 className="text-xl font-bold text-primary mb-3">الإصلاحات الهندسية</h3>
+                <h3 className="text-xl font-bold text-primary mb-3">النظافة الدورية</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  صيانة الهيكل والواجهات والأسطح للحفاظ على المبنى في أفضل حالاته على المدى الطويل مع إصلاح الأعطال.
-                </p>
+النظافة الدورية والفحص المستمر للمبنى بنظام الزيارات أو حارس مقيم.                </p>
               </CardContent>
             </Card>
 
@@ -285,10 +298,26 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Users className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-bold text-primary mb-3">خدمة اتحاد الملاك</h3>
+                <h3 className="text-xl font-bold text-primary mb-3">صيانة الواجهات واألسطح</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  تقديم خدمة اتحاد الملاك للمباني السكنية مع تأسيس الجمعيات وإدارتها باحترافية تضمن الشفافية والتعاون.
-                </p>
+صيانة الواجهات واألسطح للحفاظ على المبنى في أفضل حاالته على المدى
+الطويل.                </p>
+              </CardContent>
+            </Card>
+
+            {/* Service 6 */}
+            <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
+              <CardContent className="p-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Users className="w-8 h-8 text-accent" />
+                </div>
+                <h3 className="text-xl font-bold text-primary mb-3">خدمة إتحاد المالك</h3>
+                <p className="text-muted-foreground leading-relaxed">
+تقديم خدمة إتحاد المالك للمباني السكنية، حيث نعمل على تأسيس الجمعيات
+وإدارتها بإحترافية تضمن الشفافية وحسن اإلنتفاع من العقار، باإلضافة إلى الحفاظ
+على األجزاء المشتركة وتعزيز التعاون بين المالك ونحرص على تقديم حلول
+متكاملة تواكب األنظمة المعتمدة في المملكة العربية السعودية، مع ضمان أعلى
+مستويات الكفاءة واإلستدامة.               </p>
               </CardContent>
             </Card>
           </div>
@@ -309,8 +338,10 @@ export default function Home() {
               <span className="text-secondary block">الركن السكني؟</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              بكل بساطة لدينا فريق خبراء متخصص يتكون من المهندسين والفنيين المحترفين ذوي الخبرة الواسعة
-            </p>
+بكل بساطة لدينا فريق خبراء متخصص فريقنا يتكون من المهندسين والفنيين
+المعتمدين ذوي الخبرة الواسعة في صيانة وتشغيل المباني وذلك لضمان تنفيذ كافة
+األعمال بأعلى مستوى من الجودة واإلحترافية مع سرعة اإلنجاز واإللتزام
+بالمواعيد المحددة.            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -398,18 +429,36 @@ export default function Home() {
 
         <div className="container relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="text-5xl md:text-6xl font-black text-secondary mb-2">سنوات</div>
-              <p className="text-lg font-medium opacity-90">من الخبرة</p>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl md:text-6xl font-black text-secondary mb-2">محترفون</div>
-              <p className="text-lg font-medium opacity-90">موظفون</p>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl md:text-6xl font-black text-secondary mb-2">24/7</div>
-              <p className="text-lg font-medium opacity-90">خدمة متواصلة</p>
-            </div>
+            <div className="flex items-center justify-center gap-3 text-center">
+  <CalendarDays className="w-10 h-10 text-secondary animate-pulse" />
+  <div>
+    <div className="text-5xl md:text-6xl font-black text-secondary leading-none">
+      سنوات
+    </div>
+    <p className="text-lg font-medium opacity-90">من الخبرة</p>
+  </div>
+</div>
+
+            <div className="flex items-center justify-center gap-3 text-center">
+  <UserCog className="w-10 h-10 text-secondary animate-pulse" />
+  <div>
+    <div className="text-5xl md:text-6xl font-black text-secondary leading-none">
+      محترفون
+    </div>
+    <p className="text-lg font-medium opacity-90">موظفون</p>
+  </div>
+</div>
+
+            <div className="flex items-center justify-center gap-3 text-center">
+  <Clock className="w-10 h-10 text-secondary animate-pulse" />
+  <div>
+    <div className="text-5xl md:text-6xl font-black text-secondary leading-none">
+      24/7
+    </div>
+    <p className="text-lg font-medium opacity-90">خدمة متواصلة</p>
+  </div>
+</div>
+
           </div>
         </div>
       </section>

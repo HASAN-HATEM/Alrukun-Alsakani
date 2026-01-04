@@ -27,23 +27,13 @@ export default function Header() {
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer group">
               <div className="relative w-12 h-12">
-                {/* Hexagonal logo shape */}
-                <svg viewBox="0 0 100 100" className="w-full h-full">
-                  <polygon
-                    points="50 5, 95 27.5, 95 72.5, 50 95, 5 72.5, 5 27.5"
-                    className="fill-primary group-hover:fill-secondary transition-colors duration-300"
-                  />
-                  <text
-                    x="50"
-                    y="60"
-                    textAnchor="middle"
-                    className="fill-primary-foreground text-[32px] font-black"
-                    style={{ fontFamily: "Cairo, sans-serif" }}
-                  >
-                    RS
-                  </text>
-                </svg>
+               <img
+                 src="/images/Logo.png"
+                 alt="Alrukun Alsakani Logo"
+                className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
+                />
               </div>
+
               <div className="hidden md:block">
                 <h1 className="text-xl font-bold text-primary leading-tight">
                   الركن السكني
