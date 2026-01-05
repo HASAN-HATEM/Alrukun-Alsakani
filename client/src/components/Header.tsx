@@ -26,21 +26,24 @@ export default function Header() {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer group">
-              <div className="relative w-12 h-12">
-               <img
-                 src="/images/Logo.png"
-                 alt="Alrukun Alsakani Logo"
-                className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
+  <div className="relative w-12 h-12">
+    <img
+      src="/images/Logo.png"
+      alt="Alrukun Alsakani Logo"
+      className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
+    />
+  </div>
 
-              <div >
-                <h1 className="text-xl font-bold text-primary leading-tight">
-                  الركن السكني
-                </h1>
-                <p className="text-xs text-muted-foreground">للصيانة والتشغيل</p>
-              </div>
-            </div>
+  <div>
+    <h1 className="text-base md:text-xl font-bold text-[#131212] leading-tight">
+      الركن السكني
+    </h1>
+    <p className="text-xs text-[#050505]">
+      للصيانة والتشغيل
+    </p>
+  </div>
+</div>
+
           </Link>
 
           {/* Desktop Navigation */}
