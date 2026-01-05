@@ -34,7 +34,7 @@ export default function Header() {
                 />
               </div>
 
-              <div className="hidden md:block">
+              <div >
                 <h1 className="text-xl font-bold text-primary leading-tight">
                   الركن السكني
                 </h1>
