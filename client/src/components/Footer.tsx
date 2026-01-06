@@ -100,8 +100,8 @@ export default function Footer() {
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0 text-secondary" />
                 <div>
                   <p className="text-sm font-medium">الهاتف</p>
-                  <a href="tel:0501867025" className="text-sm opacity-90 hover:text-secondary transition-colors">
-                    0501867025
+                  <a href="tel:0506534448" className="text-sm opacity-90 hover:text-secondary transition-colors">
+                    0506534448
                   </a>
                 </div>
               </li>
@@ -109,8 +109,8 @@ export default function Footer() {
                 <Mail className="w-5 h-5 mt-0.5 flex-shrink-0 text-secondary" />
                 <div>
                   <p className="text-sm font-medium">البريد الإلكتروني</p>
-                  <a href="mailto:Hani-RS@outlook.com" className="text-sm opacity-90 hover:text-secondary transition-colors break-all">
-                    Hani-RS@outlook.com
+                  <a href="mailto:Alrukun-Alsakani@outlook.sa" className="text-sm opacity-90 hover:text-secondary transition-colors break-all">
+                    Alrukun-Alsakani@outlook.sa
                   </a>
                 </div>
               </li>

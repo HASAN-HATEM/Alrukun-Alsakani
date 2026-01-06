@@ -24,27 +24,43 @@ export default function Header() {
       <div className="container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/">
-            <div className="flex items-center gap-3 cursor-pointer group">
-  <div className="relative w-12 h-12">
-    <img
-      src="/images/Logo.png"
-      alt="Alrukun Alsakani Logo"
-      className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
-    />
-  </div>
+<Link href="/">
+  <div className="flex items-center gap-3 cursor-pointer group">
+    
+    {/* Logo Image */}
+    <div className="relative w-12 h-12">
+      <img
+        src="/images/Logo.png"
+        alt="Alrukun Alsakani Logo"
+        className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
+      />
+    </div>
 
-  <div>
-    <h1 className="text-base md:text-xl font-bold text-[#131212] leading-tight">
-      الركن السكني
-    </h1>
-    <p className="text-xs text-[#050505]">
-      للصيانة والتشغيل
-    </p>
-  </div>
-</div>
+    {/* Text */}
+    <div className="text-right leading-tight">
+      <h1 className="text-base md:text-xl font-bold text-primary">
+        الركن السكني
+      </h1>
 
-          </Link>
+      <p className="text-xs text-primary/80">
+        للصيانة والتشغيل
+      </p>
+
+      {/* English subtitle */}
+      <p
+        dir="ltr"
+        className="text-[10px] md:text-xs
+                   text-primary/70
+                   tracking-wide"
+      >
+        Maintenance &amp; Operation
+      </p>
+    </div>
+
+  </div>
+</Link>
+
+
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">

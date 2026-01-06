@@ -34,66 +34,89 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section
-        id="home"
-        className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
-      >
-        {/* Background Image with Overlay */}
-        <div className="absolute inset-0">
-          <img
-            src="/images/hero-building.png"
-            alt="مباني سكنية حديثة"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-l from-primary/90 via-primary/70 to-primary/50" />
-          {/* Hexagonal pattern overlay */}
-          <div className="absolute inset-0 hexagon-pattern opacity-20" />
+<section
+  id="home"
+  className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
+>
+  {/* Background Image with Overlay */}
+  <div className="absolute inset-0">
+    <img
+      src="/images/hero-building.png"
+      alt="مباني سكنية حديثة"
+      className="w-full h-full object-cover"
+    />
+    <div className="absolute inset-0 bg-gradient-to-l from-primary/90 via-primary/70 to-primary/50" />
+    {/* Hexagonal pattern overlay */}
+    <div className="absolute inset-0 hexagon-pattern opacity-20" />
+  </div>
+
+  {/* Content */}
+  <div className="container relative z-10 py-20">
+    <div className="max-w-3xl">
+      <div className="inline-block mb-6">
+        <div className="flex items-center gap-2 bg-secondary/20 backdrop-blur-sm px-4 py-2 rounded-full border border-secondary/30">
+          <Sparkles className="w-4 h-4 text-secondary" />
+          <span className="text-sm font-medium text-primary-foreground">
+            خدمات صيانة وتشغيل احترافية
+          </span>
         </div>
+      </div>
 
-        {/* Content */}
-        <div className="container relative z-10 py-20">
-          <div className="max-w-3xl">
-            <div className="inline-block mb-6">
-              <div className="flex items-center gap-2 bg-secondary/20 backdrop-blur-sm px-4 py-2 rounded-full border border-secondary/30">
-                <Sparkles className="w-4 h-4 text-secondary" />
-                <span className="text-sm font-medium text-primary-foreground">
-                  خدمات صيانة وتشغيل احترافية
-                </span>
-              </div>
-            </div>
+      <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-primary-foreground mb-3 leading-tight text-shadow-lg">
+        الركن السكني
+        <span className="block text-secondary mt-2">للصيانة والتشغيل</span>
+      </h1>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-primary-foreground mb-6 leading-tight text-shadow-lg">
-              الركن السكني
-              <span className="block text-secondary mt-2">للصيانة والتشغيل</span>
-            </h1>
+      {/* ✅ English brand subtitle (matches your screenshot style) */}
+      <div className="text-right">
+  <p
+    dir="ltr"
+    className="text-base md:text-lg lg:text-xl
+               font-medium
+               text-primary-foreground/85
+               tracking-wide
+               mb-6
+               text-shadow-sm"
+  >
+    Alrukun Alsakani Maintenance and Operation
+  </p>
+</div>
 
-            <p className="text-xl md:text-2xl text-primary-foreground/95 mb-8 leading-relaxed text-shadow-md">
-              نقدم خدمات الصيانة والتشغيل الشاملة للمباني السكنية والتجارية بأعلى معايير الجودة والاحترافية. فريقنا المتخصص يضمن لك راحة البال وسلامة ممتلكاتك.
-            </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://wa.me/966501867025?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم" target="_blank" rel="noopener noreferrer">
-                <Button
-                  size="lg"
-                  className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold text-lg px-8 py-6 h-auto"
-                >
-                  <MessageCircle className="w-5 h-5 ml-2" />
-                  تواصل معنا
-                </Button>
-              </a>
-              <Button
-                size="lg"
-                variant="outline"
-                className="bg-primary-foreground/10 backdrop-blur-sm text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/20 font-bold text-lg px-8 py-6 h-auto"
-                onClick={() =>
-                  document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
-                }
-              >
-                تعرف على خدماتنا
-              </Button>
-            </div>
-          </div>
-        </div>
+
+      <p className="text-xl md:text-2xl text-primary-foreground/95 mb-8 leading-relaxed text-shadow-md">
+        نقدم خدمات الصيانة والتشغيل الشاملة للمباني السكنية والتجارية بأعلى معايير الجودة والاحترافية. فريقنا المتخصص يضمن لك راحة البال وسلامة ممتلكاتك.
+      </p>
+
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a
+          href="https://wa.me/966501867025?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            size="lg"
+            className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold text-lg px-8 py-6 h-auto"
+          >
+            <MessageCircle className="w-5 h-5 ml-2" />
+            تواصل معنا
+          </Button>
+        </a>
+
+        <Button
+          size="lg"
+          variant="outline"
+          className="bg-primary-foreground/10 backdrop-blur-sm text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/20 font-bold text-lg px-8 py-6 h-auto"
+          onClick={() =>
+            document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+          }
+        >
+          تعرف على خدماتنا
+        </Button>
+      </div>
+    </div>
+  </div>
+
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
@@ -275,7 +298,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">صيانة المصاعد</h3>
                 <p className="text-muted-foreground leading-relaxed">
-صيانة المصاعد وأنظمة الحريق لضمان سالمة المبنى واإللتزام بالمعايير
+صيانة المصاعد وأنظمة الحريق لضمان سالمة المبنى والالتزام بالمعايير
 السعودية.                </p>
               </CardContent>
             </Card>
@@ -298,7 +321,7 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Users className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-bold text-primary mb-3">صيانة الواجهات واألسطح</h3>
+                <h3 className="text-xl font-bold text-primary mb-3">صيانة الواجهات والاسطح</h3>
                 <p className="text-muted-foreground leading-relaxed">
 صيانة الواجهات والاسطح للحفاظ على المبنى في أفضل حالاته على المدى
 الطويل.                </p>
@@ -415,53 +438,63 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden">
-        {/* Background */}
-        <div className="absolute inset-0">
-          <img
-            src="/images/building-systems.png"
-            alt=""
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-primary/80" />
-          <div className="absolute inset-0 hexagon-pattern opacity-10" />
+<section className="bg-primary text-primary-foreground relative overflow-hidden">
+  {/* Background */}
+  <div className="absolute inset-0">
+    <img
+      src="/images/building-systems.png"
+      alt=""
+      className="w-full h-full object-cover opacity-20"
+    />
+    <div className="absolute inset-0 bg-primary/80" />
+    <div className="absolute inset-0 hexagon-pattern opacity-10" />
+  </div>
+
+  {/* Content */}
+  <div className="container relative z-10">
+    {/* 🔒 fixed bar height */}
+    <div className="grid grid-cols-3 items-center gap-6 py-10">
+
+      {/* RIGHT — Workers */}
+      <div className="flex items-center justify-center">
+        <img
+          src="/images/workers.png"
+          alt="Professional workers"
+          className="w-36 md:w-36 object-contain opacity-90 
+                     scale-125 md:scale-125"
+        />
+      </div>
+
+
+      {/* CENTER — 24/7 */}
+      <div className="flex flex-col items-center justify-center text-center">
+        <div className="flex items-center gap-3">
+          <span className="text-5xl md:text-6xl font-black text-secondary leading-none">
+            24/7
+          </span>
+          <Clock className="w-7 h-7 md:w-8 md:h-8 text-secondary/70" />
         </div>
+        <p className="mt-2 text-base md:text-lg font-medium opacity-90">
+          خدمة متواصلة
+        </p>
+      </div>
 
-        <div className="container relative z-10">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="flex items-center justify-center gap-3 text-center">
-  <CalendarDays className="w-10 h-10 text-secondary animate-pulse" />
-  <div>
-    <div className="text-5xl md:text-6xl font-black text-secondary leading-none">
-      سنوات
+      {/* LEFT — Clock */}
+      <div className="flex items-center justify-center">
+        <img
+  src="/images/clock.png"
+  alt="24/7 clock"
+  className="w-36 md:w-36 object-contain opacity-90
+             scale-125 drop-shadow-[0_8px_18px_rgba(215,178,122,0.25)]"
+/>
+
+      </div>
+
     </div>
-    <p className="text-lg font-medium opacity-90">من الخبرة</p>
   </div>
-</div>
+</section>
 
-            <div className="flex items-center justify-center gap-3 text-center">
-  <UserCog className="w-10 h-10 text-secondary animate-pulse" />
-  <div>
-    <div className="text-5xl md:text-6xl font-black text-secondary leading-none">
-      محترفون
-    </div>
-    <p className="text-lg font-medium opacity-90">موظفون</p>
-  </div>
-</div>
 
-            <div className="flex items-center justify-center gap-3 text-center">
-  <Clock className="w-10 h-10 text-secondary animate-pulse" />
-  <div>
-    <div className="text-5xl md:text-6xl font-black text-secondary leading-none">
-      24/7
-    </div>
-    <p className="text-lg font-medium opacity-90">خدمة متواصلة</p>
-  </div>
-</div>
-
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-background">
@@ -492,10 +525,10 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-primary mb-2">اتصل بنا</h3>
                   <p className="text-muted-foreground mb-4">تواصل معنا مباشرة عبر الهاتف</p>
                   <a
-                    href="tel:0501867025"
+                    href="tel:0506534448"
                     className="text-2xl font-bold text-secondary hover:text-secondary/80 transition-colors"
                   >
-                    0501867025
+                    0506534448
                   </a>
                 </CardContent>
               </Card>
@@ -509,10 +542,10 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-primary mb-2">راسلنا</h3>
                   <p className="text-muted-foreground mb-4">أرسل لنا استفسارك عبر البريد الإلكتروني</p>
                   <a
-                    href="mailto:Hani-RS@outlook.com"
+                    href="mailto:Alrukun-Alsakani@outlook.sa"
                     className="text-xl font-bold text-accent hover:text-accent/80 transition-colors break-all"
                   >
-                    Hani-RS@outlook.com
+                    Alrukun-Alsakani@outlook.sa
                   </a>
                 </CardContent>
               </Card>
