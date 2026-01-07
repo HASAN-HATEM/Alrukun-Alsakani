@@ -174,8 +174,8 @@ export default function Home() {
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-2">رؤيتنا</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-أن نكون الخيار الموثوق والاول في المملكة في تشغيل وصيانة المرافق بالاعتماد
-على سرعة الانجاز والمرونة والشفافية والتطوير المستمر في تقديم أفضل
+أن نكون الخيار الموثوق والأول في المملكة في تشغيل وصيانة المرافق بالأعتماد
+على سرعة الأنجاز والمرونة والشفافية والتطوير المستمر في تقديم أفضل
 الخدمات لضمان رضى العملاء.                    </p>
                   </CardContent>
                 </Card>
@@ -187,7 +187,7 @@ export default function Home() {
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-2">مهمتنا</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      تقديم خدمات متكاملة باحترافية عالية ترتكز على الجودة والسرعة والاستدامة وتحقق رضا عملائنا من خلال حلول ذكية تلائم احتياجاتهم.
+                      تقديم خدمات متكاملة باحترافية عالية ترتكز على الجودة والسرعة والأستدامة وتحقق رضا عملائنا من خلال حلول ذكية تلائم احتياجاتهم.
                     </p>
                   </CardContent>
                 </Card>
@@ -204,17 +204,23 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
-                  <span className="text-sm font-medium"> ضمان الجودة
-جميع خدماتنا مصحوبة بعقود واضحة وضمان كامل وذلك لضمان إستمرارية
-الاداء المثالي للمباني وحماية أستثمارك على المدى الطويل.</span>
+                  <span className="text-sm font-medium leading-relaxed">
+  <strong>ضمان الجودة:</strong><br />
+  جميع خدماتنا مصحوبة بعقود واضحة وضمان كامل، وذلك لضمان استمرارية
+  الأداء المثالي للمباني وحماية استثمارك على المدى الطويل.
+</span>
+
                 </div>
 
               <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0" />
-                  <span className="text-sm font-medium"> خدمة سريعة وموثوقة
-نوفر في الركن السكني بالرياض خدمة صيانة طارئة للمباني التي تم التعاقد معها
-على مدار الساعة لضمان تلبية جميع الاحتياجات في أي وقت مهما كانت طبيعة
-المشكلة أو حجمها.</span>
+                  <span className="text-sm font-medium leading-relaxed">
+  <strong>خدمة سريعة وموثوقة:</strong><br />
+  نوفر في الركن السكني خدمة الصيانة الطارئة للمباني المتعاقد معها على مدار
+  الساعة، وذلك لضمان تلبية جميع الإحتياجات في أي وقت، مهما كانت طبيعة المشكلة
+  أو حجمها.
+</span>
+
                 </div>
               </div>
             </div>
@@ -242,10 +248,10 @@ export default function Home() {
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-primary mb-6 leading-tight">
               خدمات شاملة لحل
-              <span className="text-secondary block">احتياجات المباني</span>
+              <span className="text-secondary block">جميع احتياجات المباني</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              نقدم في الركن السكني صيانة شاملة في مدينة الرياض ووضع حلول الصيانة المتكاملة التي تشمل جميع جوانب المبنى
+              نقدم في الركن السكني صيانة شاملة ووضع حلول الصيانة المتكاملة التي تشمل جميع جوانب المبنى
             </p>
           </div>
 
@@ -298,7 +304,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">صيانة المصاعد</h3>
                 <p className="text-muted-foreground leading-relaxed">
-صيانة المصاعد وأنظمة الحريق لضمان سالمة المبنى والالتزام بالمعايير
+صيانة المصاعد وأنظمة الحريق لضمان سالمة المبنى والإلتزام بالمعايير
 السعودية.                </p>
               </CardContent>
             </Card>
@@ -321,9 +327,9 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Users className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-bold text-primary mb-3">صيانة الواجهات والاسطح</h3>
+                <h3 className="text-xl font-bold text-primary mb-3">صيانة الواجهات والأسطح</h3>
                 <p className="text-muted-foreground leading-relaxed">
-صيانة الواجهات والاسطح للحفاظ على المبنى في أفضل حالاته على المدى
+صيانة الواجهات والأسطح للحفاظ على المبنى في أفضل حالاته على المدى
 الطويل.                </p>
               </CardContent>
             </Card>
@@ -334,13 +340,13 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Users className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-bold text-primary mb-3">خدمة إتحاد المالك</h3>
+                <h3 className="text-xl font-bold text-primary mb-3">خدمة إتحاد الملاك</h3>
                 <p className="text-muted-foreground leading-relaxed">
-تقديم خدمة إتحاد المالك للمباني السكنية، حيث نعمل على تأسيس الجمعيات
-وإدارتها بإحترافية تضمن الشفافية وحسن الانتفاع من العقار، بالاضافة إلى الحفاظ
-على الاجزاء المشتركة وتعزيز التعاون بين المالك ونحرص على تقديم حلول
-متكاملة تواكب الانظمة المعتمدة في المملكة العربية السعودية، مع ضمان أعلى
-مستويات الكفاءة والاستدامة.               </p>
+تقديم خدمة إتحاد الملاك للمباني السكنية، حيث نعمل على تأسيس الجمعيات
+وإدارتها بإحترافية تضمن الشفافية وحسن الإنتفاع من العقار، بالإضافة إلى الحفاظ
+على الأجزاء المشتركة وتعزيز التعاون بين الملاك ونحرص على تقديم حلول
+متكاملة تواكب الأنظمة المعتمدة في المملكة العربية السعودية، مع ضمان أعلى
+مستويات الكفاءة والإستدامة.               </p>
               </CardContent>
             </Card>
           </div>
@@ -363,7 +369,7 @@ export default function Home() {
             <p className="text-lg text-muted-foreground">
 بكل بساطة لدينا فريق خبراء متخصص يتكون من المهندسين والفنيين
 المعتمدين ذوي الخبرة الواسعة في صيانة وتشغيل المباني وذلك لضمان تنفيذ كافة
-الاعمال بأعلى مستوى من الجودة والاحترافية مع سرعة الانجاز والالتزام
+الأعمال بأعلى مستوى من الجودة والإحترافية مع سرعة الإنجاز والإلتزام
 بالمواعيد المحددة.            </p>
           </div>
 
@@ -373,7 +379,7 @@ export default function Home() {
               <div className="w-20 h-20 bg-gradient-to-br from-secondary to-secondary/70 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg transform hover:scale-110 transition-transform">
                 <Clock className="w-10 h-10 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-primary mb-3">الاستجابة السريعة</h3>
+              <h3 className="text-xl font-bold text-primary mb-3">الإستجابة السريعة</h3>
               <p className="text-muted-foreground leading-relaxed">
                 نوفر خدمة صيانة طارئة على مدار الساعة لضمان تلبية جميع احتياجاتك في أي وقت
               </p>
@@ -386,7 +392,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">الإتقان</h3>
               <p className="text-muted-foreground leading-relaxed">
-                نسعى لتقديم خدمات ذات جودة عالية على مستوى من الجودة والاحترافية مع سرعة الإنجاز
+                نسعى لتقديم خدمات ذات جودة عالية على مستوى من الجودة والإحترافية مع سرعة الإنجاز
               </p>
             </div>
 
@@ -472,7 +478,6 @@ export default function Home() {
           <span className="text-5xl md:text-6xl font-black text-secondary leading-none">
             24/7
           </span>
-          <Clock className="w-7 h-7 md:w-8 md:h-8 text-secondary/70" />
         </div>
         <p className="mt-2 text-base md:text-lg font-medium opacity-90">
           خدمة متواصلة

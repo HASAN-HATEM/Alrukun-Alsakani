@@ -28,7 +28,7 @@ export default function Header() {
   <div className="flex items-center gap-3 cursor-pointer group">
     
     {/* Logo Image */}
-    <div className="relative w-12 h-12">
+    <div className="relative w-20 h-20">
       <img
         src="/images/Logo.png"
         alt="Alrukun Alsakani Logo"
@@ -39,22 +39,13 @@ export default function Header() {
     {/* Text */}
     <div className="text-right leading-tight">
       <h1 className="text-base md:text-xl font-bold text-primary">
-        الركن السكني
+        الركن السكني للصيانة والتشغيل
+
+      </h1>
+      <h1 className="text-base md:text-xl font-bold text-primary">
+Alrukun Alsakani Maintenance and Operation
       </h1>
 
-      <p className="text-xs text-primary/80">
-        للصيانة والتشغيل
-      </p>
-
-      {/* English subtitle */}
-      <p
-        dir="ltr"
-        className="text-[10px] md:text-xs
-                   text-primary/70
-                   tracking-wide"
-      >
-        Maintenance &amp; Operation
-      </p>
     </div>
 
   </div>

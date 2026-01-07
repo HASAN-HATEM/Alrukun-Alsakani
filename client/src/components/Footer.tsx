@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-6 cursor-pointer group">
-  <div className="relative w-12 h-12">
+  <div className="relative w-20 h-20">
     <img
       src="/images/Logo.png"
       alt="Alrukun Alsakani Logo"
@@ -37,7 +37,7 @@ export default function Footer() {
 
 
             <p className="text-sm opacity-90 leading-relaxed">
-              مؤسسة سعودية متخصصة في تقديم خدمات الصيانة والتشغيل الشاملة للمباني السكنية والتجارية بأعلى معايير الجودة والاحترافية.
+              مؤسسة سعودية متخصصة في تقديم خدمات الصيانة والتشغيل الشاملة للمباني السكنية والتجارية بأعلى معايير الجودة والإحترافية.
             </p>
           </div>
 
@@ -118,8 +118,8 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0 text-secondary" />
                 <div>
                   <p className="text-sm font-medium">الموقع</p>
-                  <a href="https://www.alrukunalsakani.com" target="_blank" rel="noopener noreferrer" className="text-sm opacity-90 hover:text-secondary transition-colors">
-                    www.alrukunalsakani.com
+                  <a href="https://www.alrukun-alsakani.com" target="_blank" rel="noopener noreferrer" className="text-sm opacity-90 hover:text-secondary transition-colors">
+                    www.alrukun-alsakani.com
                   </a>
                 </div>
               </li>
