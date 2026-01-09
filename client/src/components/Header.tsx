@@ -28,7 +28,7 @@ export default function Header() {
   <div className="flex items-center gap-3 cursor-pointer group">
     
     {/* Logo Image */}
-    <div className="relative w-20 h-20">
+    <div className="relative w-25 h-25">
       <img
         src="/images/Logo.png"
         alt="Alrukun Alsakani Logo"

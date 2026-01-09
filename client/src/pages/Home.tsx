@@ -67,21 +67,6 @@ export default function Home() {
         <span className="block text-secondary mt-2">للصيانة والتشغيل</span>
       </h1>
 
-      {/* ✅ English brand subtitle (matches your screenshot style) */}
-      <div className="text-right">
-  <p
-    dir="ltr"
-    className="text-base md:text-lg lg:text-xl
-               font-medium
-               text-primary-foreground/85
-               tracking-wide
-               mb-6
-               text-shadow-sm"
-  >
-    Alrukun Alsakani Maintenance and Operation
-  </p>
-</div>
-
 
 
       <p className="text-xl md:text-2xl text-primary-foreground/95 mb-8 leading-relaxed text-shadow-md">
@@ -161,7 +146,7 @@ export default function Home() {
                 <span className="text-secondary block">الصيانة والتشغيل</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-مؤسسة الركن السكني للخدمات السريعة والموثوقة مع الجودة العالية التي تضمن استمرارية تشغيل المبنى بأفضل شكل ممكن، وبما يحقق راحة وسلامة الملاك أو المستأجرين للمبنى
+مؤسسة الركن السكني للخدمات السريعة والموثوقة مع الجودة العالية التي تضمن إستمرارية تشغيل المبنى بأفضل شكل ممكن، وبما يحقق راحة وسلامة الملاك أو المستأجرين للمبنى
 نوفر لكم الخدمات المتكاملة والإحترافية لجميع أنواع المباني السكنية نحن متخصصون في تقديم خدمات الصيانة للكهرباء والسباكة والتكييف والصيانة العامة لجميع المباني السكنية.
               </p>
 
@@ -516,7 +501,7 @@ export default function Home() {
                 <span className="text-secondary block">نحن هنا لمساعدتك</span>
               </h2>
               <p className="text-lg text-muted-foreground">
-                تواصل معنا الآن واحصل على استشارة مجانية لاحتياجات الصيانة والتشغيل
+                تواصل معنا الآن واحصل على استشارة مجانية لإحتياجات الصيانة والتشغيل
               </p>
             </div>
 
