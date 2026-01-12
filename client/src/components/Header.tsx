@@ -89,7 +89,7 @@ Alrukun Alsakani Maintenance and Operation
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="https://wa.me/966501867025?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/966506534448?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم" target="_blank" rel="noopener noreferrer">
               <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold">
                 <MessageCircle className="w-4 h-4 ml-2" />
                 تواصل معنا

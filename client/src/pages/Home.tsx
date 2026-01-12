@@ -75,7 +75,7 @@ export default function Home() {
 
       <div className="flex flex-col sm:flex-row gap-4">
         <a
-          href="https://wa.me/966501867025?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم"
+          href="https://wa.me/966506534448?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -550,7 +550,7 @@ export default function Home() {
                 <p className="text-lg text-muted-foreground mb-6">
                   احصل على عرض سعر مجاني واستشارة احترافية من فريقنا المتخصص
                 </p>
-                <a href="https://wa.me/966501867025?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/966506534448?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم" target="_blank" rel="noopener noreferrer">
                   <Button
                     size="lg"
                     className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold text-lg px-8 py-6 h-auto"

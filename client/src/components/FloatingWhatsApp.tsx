@@ -16,7 +16,7 @@ export default function FloatingWhatsApp() {
 
       {/* Main Button */}
       <a
-        href="https://wa.me/966501867025?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم"
+        href="https://wa.me/966506534448?text=مرحباً%2C%20أود%20الاستفسار%20عن%20خدماتكم"
         target="_blank"
         rel="noopener noreferrer"
         onMouseEnter={() => setIsHovered(true)}
