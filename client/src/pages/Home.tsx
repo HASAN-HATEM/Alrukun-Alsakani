@@ -242,6 +242,32 @@ export default function Home() {
 
           {/* Services Grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+             {/* Service 5 */}
+            <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
+              <CardContent className="p-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Wrench className="w-8 h-8 text-secondary" />
+                </div>
+                <h3 className="text-xl font-bold text-primary mb-3">النظافة الدورية</h3>
+                <p className="text-muted-foreground leading-relaxed">
+النظافة الدورية والفحص المستمر للمبنى بنظام الزيارات أو حارس مقيم.                </p>
+              </CardContent>
+            </Card>
+
+            {/* Service 6 */}
+            <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
+              <CardContent className="p-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Users className="w-8 h-8 text-accent" />
+                </div>
+                <h3 className="text-xl font-bold text-primary mb-3">صيانة الواجهات والأسطح</h3>
+                <p className="text-muted-foreground leading-relaxed">
+صيانة الواجهات والأسطح للحفاظ على المبنى في أفضل حالاته على المدى
+الطويل.                </p>
+              </CardContent>
+            </Card>
+
             {/* Service 1 */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
               <CardContent className="p-6">
@@ -255,6 +281,19 @@ export default function Home() {
               </CardContent>
             </Card>
 
+{/* Service 4 */}
+            <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
+              <CardContent className="p-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Gauge className="w-8 h-8 text-accent" />
+                </div>
+                <h3 className="text-xl font-bold text-primary mb-3">صيانة المصاعد</h3>
+                <p className="text-muted-foreground leading-relaxed">
+صيانة المصاعد وأنظمة الحريق لضمان سالمة المبنى والإلتزام بالمعايير
+السعودية.                </p>
+              </CardContent>
+            </Card>
+            
             {/* Service 2 */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
               <CardContent className="p-6">
@@ -281,43 +320,11 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            {/* Service 4 */}
-            <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
-              <CardContent className="p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Gauge className="w-8 h-8 text-accent" />
-                </div>
-                <h3 className="text-xl font-bold text-primary mb-3">صيانة المصاعد</h3>
-                <p className="text-muted-foreground leading-relaxed">
-صيانة المصاعد وأنظمة الحريق لضمان سالمة المبنى والإلتزام بالمعايير
-السعودية.                </p>
-              </CardContent>
-            </Card>
+            
 
-            {/* Service 5 */}
-            <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
-              <CardContent className="p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Wrench className="w-8 h-8 text-secondary" />
-                </div>
-                <h3 className="text-xl font-bold text-primary mb-3">النظافة الدورية</h3>
-                <p className="text-muted-foreground leading-relaxed">
-النظافة الدورية والفحص المستمر للمبنى بنظام الزيارات أو حارس مقيم.                </p>
-              </CardContent>
-            </Card>
+           
 
-            {/* Service 6 */}
-            <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
-              <CardContent className="p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Users className="w-8 h-8 text-accent" />
-                </div>
-                <h3 className="text-xl font-bold text-primary mb-3">صيانة الواجهات والأسطح</h3>
-                <p className="text-muted-foreground leading-relaxed">
-صيانة الواجهات والأسطح للحفاظ على المبنى في أفضل حالاته على المدى
-الطويل.                </p>
-              </CardContent>
-            </Card>
+            
 
             {/* Service 6 */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
