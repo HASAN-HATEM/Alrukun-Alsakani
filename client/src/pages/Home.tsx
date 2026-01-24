@@ -3,7 +3,7 @@
  * Design Philosophy: Geometric patterns, diagonal layouts, warm browns and golds
  * Features: Hero, About, Services, Why Us, Stats, Contact sections
  */
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Footer from "@/components/Footer";
@@ -293,7 +293,7 @@ export default function Home() {
 السعودية.                </p>
               </CardContent>
             </Card>
-            
+
             {/* Service 2 */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/50 bg-card">
               <CardContent className="p-6">
